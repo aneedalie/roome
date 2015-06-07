@@ -1,0 +1,41 @@
+.header {
+    width: 105%;
+    height: 90px;
+    background-color: #91DAFF;
+    border: transparent;
+    margin: -20px;
+    padding: 0px;
+}
+
+ul { 
+    list-style-type: none;
+    position: fixed;
+    margin-top: -40px;
+    margin-left: 680px;
+}
+
+li {
+    display: inline-block;
+    margin: auto;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial black;
+}
+
+
+.navbar:hover {
+    border: 2px solid white;
+}
+
+#profile {
+    margin: auto;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px; 
+}
