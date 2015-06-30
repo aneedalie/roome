@@ -13,15 +13,16 @@ small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, l
     height: 90px;
     background-color: #72D0EB;
     border: transparent;
-    margin: -20px;
+/*    margin: -20px;*/
     padding: 0px;
 }
 
 ul#top { 
     list-style-type: none;
     position: fixed;
-    margin-top: -42px;
+    height: inherit;
     margin-left: 49%;
+    padding-top: 10px;
 }
 
 li.navbar {
@@ -79,11 +80,27 @@ ul#categories{
     color: #3e3e3e;
 }
 
-div#person1left {
-    margin-left: 18.5%;
-    margin-right: 40%;
-    margin-top: 2%;
+.content{
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.column-half{
+    width: 50%;
     float: left;
+}
+div#person1left {
+    float: left;
+}
+
+div#person1right {
+    float: left;
+/*
+    margin-left: 50%;
+    margin-right: 20%;
+    margin-top: -12.5%;
+*/
 }
 
 dt {
@@ -107,9 +124,6 @@ dd {
     color: #3e3e3e;
 }
 
-div#person1right {
-    float: left;
-    margin-left: 50%;
-    margin-right: 20%;
-    margin-top: -12.5%;
-}
+
+
+
